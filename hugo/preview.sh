@@ -1,0 +1,1 @@
+hugo server -t hugo-theme-bootstrap -p 51000 -s /Users/kasusa/Documents/GitHub/cornBlog-bootstraptheme
