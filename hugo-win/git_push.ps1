@@ -5,13 +5,13 @@ echo "- add proxy 7890"
 $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 
 echo "- push source file"
-cd C:/Users/kasus/Documents/GitHub/cornBlog-bootstraptheme
+cd C:/Users/KK/Documents/GitHub/cornBlog-bootstraptheme
 git add .
 git commit -m "autocommit"
 git push
 
 echo "- push compiled file"
-cd C:/Users/kasus/Documents/GitHub/cornradio.github.io
+cd C:/Users/KK/Documents/GitHub/cornradio.github.io
 git add .
 git commit -m "autocommit"
 git push

@@ -6,6 +6,6 @@ if ($args.Count -eq 0) {
 
     # Print the date in yyyy-mm-dd format
     Write-Host "$cur_date-$($args[0])"
-    & hugo new "content\zh-cn\posts\$cur_date-$($args[0]).md" -s C:\Users\kasus\Documents\GitHub\cornBlog-bootstraptheme
-    & code C:\Users\kasus\Documents\GitHub\cornBlog-bootstraptheme\content\zh-cn\posts\
+    & hugo new "content\zh-cn\posts\$cur_date-$($args[0]).md" -s C:\Users\KK\Documents\GitHub\cornBlog-bootstraptheme
+    & code C:\Users\KK\Documents\GitHub\cornBlog-bootstraptheme\content\zh-cn\posts\
 }
