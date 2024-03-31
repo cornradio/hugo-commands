@@ -8,9 +8,9 @@ echo "- pull source file"
 Set-Location C:\Users\KK\Documents\GitHub\hugo-stacktheme
 git pull
 
-echo "- pull compiled file"
-Set-Location C:\Users\KK\Desktop\Sout
-git pull
+# echo "- pull compiled file"
+# Set-Location C:\Users\KK\Desktop\Sout
+# git pull
 
 # 恢复原始工作目录
 Set-Location $originalPath

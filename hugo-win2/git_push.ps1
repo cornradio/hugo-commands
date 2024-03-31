@@ -10,11 +10,11 @@ git add .
 git commit -m "autocommit"
 git push
 
-echo "- push compiled file"
-cd C:\Users\KK\Desktop\Sout
-git add .
-git commit -m "autocommit"
-git push
+# echo "- push compiled file"
+# cd C:\Users\KK\Desktop\Sout
+# git add .
+# git commit -m "autocommit"
+# git push
 
 # 恢复原始工作目录
 Set-Location $originalPath
