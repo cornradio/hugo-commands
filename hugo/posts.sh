@@ -1,2 +1,2 @@
-code /Users/kasusa/Documents/GitHub/cornBlog-bootstraptheme/content/zh-cn/posts
-open /Users/kasusa/Documents/GitHub/cornBlog-bootstraptheme/content/zh-cn/posts
+code /Users/kasusa/Documents/GitHub/hugo-stacktheme/content/post
+open /Users/kasusa/Documents/GitHub/hugo-stacktheme/content/post

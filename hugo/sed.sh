@@ -1,0 +1,1 @@
+sed -i '' 's;/Users/kasusa/Documents/GitHub/hugo-stacktheme;/Users/kasusa/Documents/GitHub/hugo-stacktheme;g' *.sh

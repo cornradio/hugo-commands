@@ -1,12 +1,17 @@
-if [$1 eq ""];then
-    echo "[error] Usage: new.sh <name>"
-    exit 1
-else
-    # Get the current date in yyyy-mm-dd format
-    cur_date=$(date +%F)
+#!/bin/bash
 
-    # Print the date in yyyy-mm-dd format
+if [ "$#" -eq 0 ]; then
+    echo "[error] Usage: new.sh <name>"
+else
+    cur_date=$(date +'%Y-%m-%d')
     echo "$cur_date-$1"
-    hugo new content/zh-cn/posts/$cur_date-$1.md -s /Users/kasusa/Documents/GitHub/cornBlog-bootstraptheme 
-    code /Users/kasusa/Documents/GitHub/cornBlog-bootstraptheme/content/zh-cn/posts/
+    originalPath=$(pwd)
+    cd /Users/kasusa/Documents/GitHub/hugo-stacktheme/content/post/
+    cp abctest.md "$cur_date-$1.md"
+    # Replace post name and date
+    sed -i '' -e "s/abctest/$1/g" "$cur_date-$1.md"
+    sed -i '' -e "s/2024-02-26/$cur_date/g" "$cur_date-$1.md"
+    open /Users/kasusa/Documents/GitHub/hugo-stacktheme/content/post/
+    code /Users/kasusa/Documents/GitHub/hugo-stacktheme/content/post/
+    cd "$originalPath"
 fi

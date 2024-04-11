@@ -1,1 +1,1 @@
-hugo server -t hugo-theme-bootstrap -p 51000 -s /Users/kasusa/Documents/GitHub/cornBlog-bootstraptheme
+hugo server -p 51000 -s /Users/kasusa/Documents/GitHub/hugo-stacktheme --bind="0.0.0.0" --baseURL=http://127.0.0.1:51000/
