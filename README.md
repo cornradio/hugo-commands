@@ -26,3 +26,5 @@ the script function as below:
 ---
 # plans
 - [ ] add python script to auto generate hugo-commands
+
+https://b.cornradio.org/p/newhugotheme/
