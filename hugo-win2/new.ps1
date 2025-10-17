@@ -8,7 +8,7 @@ if ($args.Count -eq 0) {
 
     # Print the date in yyyy-mm-dd format
     Write-Host "$cur_date-$($args[0])"
-    cd C:\Users\KK\Documents\GitHub\hugo-stacktheme\content\post\
+    cd C:\Users\rober\Documents\GitHub\hugo-stacktheme\content\post\
     Copy-Item -Path "abctest.md" -Destination "$cur_date-$($args[0]).md"
     # Replace post name 、 date
     $content = Get-Content -Raw -Path 'abctest.md' -Encoding UTF8
@@ -16,6 +16,6 @@ if ($args.Count -eq 0) {
     $newContent = $newContent -replace '2024-02-26', $cur_date
     $newContent | Set-Content -Path  "$cur_date-$($args[0]).md" -Encoding UTF8
 
-    code C:\Users\KK\Documents\GitHub\hugo-stacktheme\content\post\
+    code C:\Users\rober\Documents\GitHub\hugo-stacktheme\content\post\
     Set-Location $originalPath
 }

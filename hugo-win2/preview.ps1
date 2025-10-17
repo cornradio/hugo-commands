@@ -1,1 +1,1 @@
-hugo server --bind="0.0.0.0" --baseURL=http://127.0.0.1:51000/ - -p 51000 -s C:\Users\KK\Documents\GitHub\hugo-stacktheme
+./hugo server --bind="0.0.0.0" --baseURL=http://localhost:51000/ - -p 51000 -s C:\Users\rober\Documents\GitHub\hugo-stacktheme
